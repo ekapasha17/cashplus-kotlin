@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.shopapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\pasha\.gradle\caches\8.13\transforms\41f1f4c0b7b2b4e891e6640c8b2dec7a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.shopapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\pasha\.gradle\caches\8.13\transforms\41f1f4c0b7b2b4e891e6640c8b2dec7a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\pasha\.gradle\caches\8.13\transforms\41f1f4c0b7b2b4e891e6640c8b2dec7a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.shopapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\pasha\.gradle\caches\8.13\transforms\41f1f4c0b7b2b4e891e6640c8b2dec7a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\pasha\.gradle\caches\8.13\transforms\41f1f4c0b7b2b4e891e6640c8b2dec7a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:7:5-25:19
+20        android:name="com.example.shopapp.ShopApplication"
+20-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:8:9-40
+21        android:allowBackup="true"
+21-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\pasha\.gradle\caches\8.13\transforms\41f1f4c0b7b2b4e891e6640c8b2dec7a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:icon="@android:drawable/sym_def_app_icon"
+24-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:10:9-58
+25        android:label="@string/app_name"
+25-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:11:9-41
+26        android:roundIcon="@android:drawable/sym_def_app_icon"
+26-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:12:9-63
+27        android:supportsRtl="true"
+27-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:13:9-35
+28        android:theme="@style/Theme.ShopApp" >
+28-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:14:9-45
+29        <activity
+29-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:16:9-23:20
+30            android:name="com.example.shopapp.ui.MainActivity"
+30-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:17:13-44
+31            android:exported="true" >
+31-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:18:13-36
+32            <intent-filter>
+32-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:19:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:20:17-69
+33-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:21:17-77
+35-->C:\xampp\htdocs\SimpleShop\app\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pasha\.gradle\caches\8.13\transforms\77ca48bfd96d4dc3176bd6c81b7a33ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pasha\.gradle\caches\8.13\transforms\77ca48bfd96d4dc3176bd6c81b7a33ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.shopapp.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pasha\.gradle\caches\8.13\transforms\77ca48bfd96d4dc3176bd6c81b7a33ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pasha\.gradle\caches\8.13\transforms\77ca48bfd96d4dc3176bd6c81b7a33ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pasha\.gradle\caches\8.13\transforms\77ca48bfd96d4dc3176bd6c81b7a33ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pasha\.gradle\caches\8.13\transforms\77ca48bfd96d4dc3176bd6c81b7a33ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pasha\.gradle\caches\8.13\transforms\77ca48bfd96d4dc3176bd6c81b7a33ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pasha\.gradle\caches\8.13\transforms\5d913b06541c8046c1716835b023242d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pasha\.gradle\caches\8.13\transforms\5d913b06541c8046c1716835b023242d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pasha\.gradle\caches\8.13\transforms\5d913b06541c8046c1716835b023242d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+49        </provider>
+50
+51        <uses-library
+51-->[androidx.window:window:1.0.0] C:\Users\pasha\.gradle\caches\8.13\transforms\9faf72ed7681a4326beaf79f0f255cca\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.0.0] C:\Users\pasha\.gradle\caches\8.13\transforms\9faf72ed7681a4326beaf79f0f255cca\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] C:\Users\pasha\.gradle\caches\8.13\transforms\9faf72ed7681a4326beaf79f0f255cca\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+54        <uses-library
+54-->[androidx.window:window:1.0.0] C:\Users\pasha\.gradle\caches\8.13\transforms\9faf72ed7681a4326beaf79f0f255cca\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.0.0] C:\Users\pasha\.gradle\caches\8.13\transforms\9faf72ed7681a4326beaf79f0f255cca\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0] C:\Users\pasha\.gradle\caches\8.13\transforms\9faf72ed7681a4326beaf79f0f255cca\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+57
+58        <service
+58-->[androidx.room:room-runtime:2.5.0] C:\Users\pasha\.gradle\caches\8.13\transforms\7f135132e5cd05c040edbd11ebd7f70c\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+59            android:name="androidx.room.MultiInstanceInvalidationService"
+59-->[androidx.room:room-runtime:2.5.0] C:\Users\pasha\.gradle\caches\8.13\transforms\7f135132e5cd05c040edbd11ebd7f70c\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+60            android:directBootAware="true"
+60-->[androidx.room:room-runtime:2.5.0] C:\Users\pasha\.gradle\caches\8.13\transforms\7f135132e5cd05c040edbd11ebd7f70c\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+61            android:exported="false" />
+61-->[androidx.room:room-runtime:2.5.0] C:\Users\pasha\.gradle\caches\8.13\transforms\7f135132e5cd05c040edbd11ebd7f70c\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+62    </application>
+63
+64</manifest>

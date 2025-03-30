@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shop App</string>
+    <string name="products">Products</string>
+    <string name="cart">Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="empty_cart">Your cart is empty</string>
+    <string name="total">Total:</string>
+    <string name="checkout_button">Checkout</string>
+    <string name="place_order">Place Order</string>
+    <string name="customer_information">Customer Information</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="items">Items:</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="shipping">Shipping:</string>
+    <string name="order_confirmation">Order Confirmation</string>
+    <string name="thank_you">Thank You For Your Order!</string>
+    <string name="order_success_message">Your order has been placed successfully. We\'ll process it right away!</string>
+    <string name="order_number">Order Number:</string>
+    <string name="continue_shopping">Continue Shopping</string>
+</resources>

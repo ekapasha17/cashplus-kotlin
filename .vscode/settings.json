@@ -1,0 +1,7 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.import.gradle.version": "7.4",
+    "java.import.gradle.home": null,
+    "java.import.gradle.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.14.7-hotspot",
+    "gradle.nestedProjects": true
+}

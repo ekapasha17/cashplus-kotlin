@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.shopapp-merged_res-52:/layout_item_product.xml.flat",
+        "source": "com.example.shopapp-main-54:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.shopapp-merged_res-52:/layout_fragment_checkout.xml.flat",
+        "source": "com.example.shopapp-main-54:/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "com.example.shopapp-merged_res-52:/layout_activity_main.xml.flat",
+        "source": "com.example.shopapp-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.shopapp-merged_res-52:/layout_fragment_order_confirmation.xml.flat",
+        "source": "com.example.shopapp-main-54:/layout/fragment_order_confirmation.xml"
+    },
+    {
+        "merged": "com.example.shopapp-merged_res-52:/layout_fragment_cart.xml.flat",
+        "source": "com.example.shopapp-main-54:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.example.shopapp-merged_res-52:/layout_fragment_product_list.xml.flat",
+        "source": "com.example.shopapp-main-54:/layout/fragment_product_list.xml"
+    },
+    {
+        "merged": "com.example.shopapp-merged_res-52:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.example.shopapp-main-54:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.example.shopapp-merged_res-52:/navigation_nav_graph.xml.flat",
+        "source": "com.example.shopapp-main-54:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.shopapp-merged_res-52:/layout_item_cart.xml.flat",
+        "source": "com.example.shopapp-main-54:/layout/item_cart.xml"
+    }
+]
